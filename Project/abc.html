@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Feedback</title>
+<style>
+/* General body styling */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+color: #333;
+background:
+url("https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images
+/201810/MIT-Computer-Announce-01_0.jpg?itok=VCOJMCvN") no-repeat center center
+fixed;
+background-size: cover;
+}
+main {
+margin-top: 60px; /* Adjust this value based on header height */
+}
+/* Header styling */
+header {
+background: rgba(0, 0, 0, 0.7);
+color: #fff;
+padding: 20px;
+text-align: center;
+}
+nav ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+nav ul li {
+display: inline;
+margin-right: 15px;
+}
+nav ul li a {
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+}
+nav ul li a:hover {
+text-decoration: underline;
+}
+/* Hero section styling */
+.hero {
+background: rgba(0, 0, 0, 0.5);
+color: #fff;
+padding: 40px 20px;
+text-align: center;
+}
+.hero .container {
+max-width: 800px;
+margin: auto;
+}
+/* Section styling */
+section {
+padding: 20px;
+margin: 0 20px;
+background: rgba(255, 255, 255, 0.8);
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.section-title h2 {
+margin-top: 0;
+}
+/* Footer styling */
+footer {
+background: rgba(0, 0, 0, 0.7);
+color: #fff;
+padding: 10px;
+text-align: center;
+}
+</style>
+</head>
+<body>
+<header>
+<nav>
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="feedback.html">Feedback</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="about.html">About Us</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section class="hero">
+<div class="container">
+<h2>Welcome to ABC Institutions</h2>
+<p>Where excellence in education meets innovation and opportunity. Our
+commitment is to provide high-quality education and foster a thriving academic
+community.</p>
+</div>
+</section>
+<section>
+<div class="section-title">
+<h2>Why Choose Us?</h2>
+</div>
+<div class="section-content">
+<p>ABC Institutions stands out for its commitment to quality education, innovative
+teaching methods, and supportive learning environment. Our dedicated faculty and state-ofthe-art facilities ensure that students receive the best possible education.</p>
+</div>
+</section>
+<section>
+<div class="section-title">
+<h2>Contact Us</h2>
+</div>
+<div class="section-content">
+<p>Have questions or need more information? Get in touch with us to learn how
+ABC Institutions can help you achieve your educational goals.</p>
+<p><a href="contact.html">Contact us today</a></p>
+</div>
+</section>
+</main>
+<footer>
+<p>&copy; 2024 ABC Institutions. All rights reserved.</p>
+</footer>
+</body>
+</html>
+Feedback:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Feedback</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<nav>
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="feedback.html">Feedback</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section class="container">
+<h1>We Value Your Feedback</h1>
+<p>Please fill out the form below to provide your feedback on our university
+website.</p>
+<form id="feedbackForm" action="feedback.php" method="post">
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+<label for="feedback">Feedback:</label>
+<textarea id="feedback" name="feedback" rows="4" required></textarea>
+<label for="rating">Rating:</label>
+<select id="rating" name="rating" required>
+<option value="">Select a rating</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+</select>
+<button type="submit">Submit Feedback</button>
+</form>
+<div id="responseMessage"></div>
+</section>
+</main>
+<footer>
+<p>&copy; 2024 University Name. All rights reserved.</p>
+</footer>
+<script src="scripts.js"></script>
+</body>
+</html>
+About:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us - ABC Institutions</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+color: #333;
+background:
+url("https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images
+/201810/MIT-Computer-Announce-01_0.jpg?itok=VCOJMCvN") no-repeat center center
+fixed;
+background-size: cover;
+}
+header {
+background-color: #0044cc;
+color: #fff;
+padding: 10px 0;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 1000; /* Ensure header is above other content */
+}
+nav ul {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+justify-content: center;
+}
+nav ul li {
+margin: 0 15px;
+}
+nav ul li a {
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+}
+nav ul li a:hover {
+text-decoration: underline;
+}
+/* Adjust main content margin to account for fixed header */
+.container {
+width: 80%;
+margin: 80px auto 0; /* Adjust margin-top to match header height */
+overflow: hidden;
+}
+h1, h2 {
+color: #333;
+}
+section {
+padding: 20px;
+background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+margin-bottom: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-info {
+background: #fff;
+padding: 20px;
+border-top: 2px solid #333;
+}
+.contact-info p {
+margin: 0;
+}
+</style>
+</head>
+<body>
+<header>
+<nav>
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="feedback.html">Feedback</a></li>
+</ul>
+</nav>
+</header>
+<div class="container">
+<section>
+<h2>About Us</h2>
+<p>Welcome to ABC Institutions! We are dedicated to providing high-quality education
+and fostering a learning environment that encourages growth and success. Established in 2000,
+our institution has been at the forefront of educational excellence.</p>
+</section>
+<section>
+<h2>Our Mission</h2>
+<p>“ To be, and to be recognized for setting the standards of excellence in engineering
+education and high-quality scientific research.”</p>
+</section>
+<section>
+<h2>Our History</h2>
+<p>ABC Institutions was founded in 2000 with a vision to transform education. Over
+the years, we have expanded our programs and facilities to better serve our community and
+adapt to the evolving needs of our students.</p>
+</section>
+</div>
+</body>
+</html>
+Contact:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us - ABC Institutions</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+color: #333;
+background-color: #f4f4f4;
+}
+header {
+background-color: #0044cc;
+color: #fff;
+padding: 10px 0;
+}
+nav ul {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+justify-content: center;
+}
+nav ul li {
+margin: 0 15px;
+}
+nav ul li a {
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+}
+.container {
+width: 80%;
+margin: auto;
+overflow: hidden;
+}
+.contact-form {
+background: #fff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+margin-top: 20px;
+}
+.contact-form h2 {
+color: #333;
+margin-bottom: 20px;
+}
+.contact-form label {
+display: block;
+margin-bottom: 10px;
+font-weight: bold;
+}
+.contact-form input, .contact-form textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+border: 1px solid #ddd;
+border-radius: 4px;
+}
+.contact-form button {
+background: #333;
+color: #fff;
+border: none;
+padding: 15px;
+cursor: pointer;
+font-size: 16px;
+border-radius: 4px;
+}
+.contact-form button:hover {
+background: #555;
+}
+.contact-info {
+background: #fff;
+padding: 20px;
+margin-top: 20px;
+border-top: 2px solid #333;
+border-radius: 8px;
+}
+.contact-info p {
+margin: 0;
+}
+</style>
+</head>
+<body>
+<header>
+<nav>
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="feedback.html">Feedback</a></li>
+</ul>
+</nav>
+</header>
+<div class="container">
+<section class="contact-form">
+<h2>Contact Us</h2>
+<form action="contact.php" method="post">
+<label for="name">Name</label>
+<input type="text" id="name" name="name" required>
+<label for="email">Email</label>
+<input type="email" id="email" name="email" required>
+<label for="subject">Subject</label>
+<input type="text" id="subject" name="subject" required>
+<label for="message">Message</label>
+<textarea id="message" name="message" rows="6" required></textarea>
+<button type="submit">Send Message</button>
+</form>
+</section>
+<section class="contact-info">
+<h2>Our Address</h2>
+<p>ABC Institutions<br>
+123 Education Lane<br>
+Learning City, LC 45678<br>
+India</p>
+<h2>Phone</h2>
+<p>+91 9876543210</p>
+<h2>Email</h2>
+<p>info@abcinstitutions.edu</p>
+</section>
+</div>
+</body>
+</html>
+Styles:
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+color: #333;
+}
+header {
+background-color: #0044cc;
+color: #fff;
+padding: 10px 0;
+}
+nav ul {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+justify-content: center;
+}
+nav ul li {
+margin: 0 15px;
+}
+nav ul li a {
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+}
+main {
+padding: 20px;
+background-color: #f9f9f9;
+}
+.container {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 {
+text-align: center;
+margin-bottom: 20px;
+}
+label {
+display: block;
+margin: 10px 0 5px;
+}
+input, textarea, select {
+width: 100%;
+padding: 8px;
+border-radius: 4px;
+border: 1px solid #ddd;
+margin-bottom: 10px;
+}
+textarea {
+resize: vertical;
+}
+button {
+width: 100%;
+padding: 10px;
+border: none;
+border-radius: 4px;
+background-color: #28a745;
+color: #fff;
+font-size: 16px;
+cursor: pointer;
+}
+button:hover {
+background-color: #218838;
+}
+#responseMessage {
+margin-top: 20px;
+text-align: center;
+font-weight: bold;
+}
+footer {
+background-color: #0044cc;
+color: #fff;
+text-align: center;
+padding: 10px 0;
+position: fixed;
+width: 100%;
+bottom:0;
+}
